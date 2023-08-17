@@ -1,0 +1,136 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body
+{
+    width: 100%;
+}
+.fa fa-search
+{
+    border: 2px soild orange;
+}
+
+.amazon
+{
+    border: 2px solid red;
+}
+
+.head
+{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.head img
+{
+    border: 2px solid red;
+    height: 100px;
+    width: 120px;
+}
+.location
+{
+border: 2px solid red;
+text-decoration: none;
+width: 10%;
+margin-right: 20px;
+
+color: rgb(10, 9, 9);
+/* color: rgb(0, 0, 0); */
+}
+.location a
+{
+ text-decoration: none;
+ color: white;
+ /* tab-size: 5cap; */
+}
+.search1 select
+{
+    /* position: relative; */
+    /* left: 20px; */
+    margin-left: 85px;
+    height:66px;
+    width: 60%;
+    border: 2px solid rgb(0, 247, 255);
+    /* padding: 30px; */
+    /* left: 0px; */
+    color: rgb(19, 19, 19);
+}
+.placeholder input
+{
+    
+    position: absolute;
+    border: 2px solid blue;
+    height:60px;
+    width: 60%;
+    text-align:center;
+    color: white;
+}
+.search
+{
+    
+    border: 2px soild black;
+    display: flex
+}
+.searchicon button
+{
+    border: 2px solid red;
+    height: 60px;
+    width: 62px;
+    text-align: center;
+    background-color: orange;
+    /* position:absolute; */
+    /* right: 0px; */
+    /* margin-right: 338px; */
+    /* margin-top: 3px; */
+    color: white;
+}
+.placeholder
+{
+    display: flex;
+    /* margin-right:40px ; */
+}
+.search,button
+{
+
+    display: flex;
+    /* justify-content: space-between; */
+}
+.language img
+{
+    margin-top: 15px;
+    height:40px ;
+    width: 50px;
+}
+.language
+{
+    border: 2px solid pink;
+    width: 8%;
+}
+.language select
+{
+ border: 2px solid green;
+ height: 40px;
+}
+.signin
+{
+    text-decoration: none;
+    border: 2px solid purple;
+    width: 10%;
+    background-color: white;
+    color: aliceblue;
+}
+.order
+{
+    border: 2px soild rgb(118, 13, 13);
+}
+.cart
+{
+    border: 2px solid red;
+    text-decoration:none;
+    width: 5%;
+}
